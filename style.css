@@ -82,11 +82,7 @@ h3{
 ol{
  color: black;
 }
-.tocLi li {
-  display: block;
-  color:black;
-  font-size: 1.3rem;
-}
+
 li{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
