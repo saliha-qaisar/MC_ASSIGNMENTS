@@ -8,7 +8,8 @@ body{
     background-image:url(/Images/background.jpg);
     color: rgb(13, 2, 2);
 }
-
+/*This is only added in sub-branch before the merge*/
+/* checking after the second branch*/
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */

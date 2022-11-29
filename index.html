@@ -159,7 +159,7 @@
                 <li class="list1"><a href="#sec10">git pull </a>
                 </li>
 
-                
+
 
                 <li class="list1"><a href="#sec11">git branches</a>
                 </li>
@@ -266,9 +266,12 @@
             <li class="cmd" id="sec8">
                 <h3>git clone</h3>
                 <p class="sections_p">
-                    git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository.
-                    The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.
-                    Here the shaded area contains the https link of your remote repository. you can copy the address from github website. 
+                    git clone is a Git command line utility which is used to target an existing repository and create a
+                    clone, or copy of the target repository.
+                    The original repository can be located on the local filesystem or on remote machine accessible
+                    supported protocols. The git clone command copies an existing Git repository.
+                    Here the shaded area contains the https link of your remote repository. you can copy the address
+                    from github website.
                 </p>
                 <img src="/Images/git_clone.png" style="display:flex; height:15rem; width:50rem">
             </li>
@@ -276,7 +279,9 @@
             <li class="cmd" id="sec9">
                 <h3>git push</h3>
                 <p class="sections_p">
-                    The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repository.After a local repository has been modified a push is executed to share the modifications with remote team members.
+                    The git push command is used to upload local repository content to a remote repository. Pushing is
+                    how you transfer commits from your local repository to a remote repository.After a local repository
+                    has been modified a push is executed to share the modifications with remote team members.
                     Here git push add all the changes to remote repository.
                 </p>
                 <img src="/Images/git_push.png" style="display:flex; height:15rem; width:50rem">
@@ -285,12 +290,63 @@
             <li class="cmd" id="sec10">
                 <h3>git pull</h3>
                 <p class="sections_p">
-                    The git pull command is used to fetch data of updated  remote repository content to a local repository.
-                
+                    The git pull command is used to fetch data of updated remote repository content to a local
+                    repository.
+
                 </p>
                 <img src="/Images/git_pull.png" style="display:flex; height:15rem; width:50rem">
             </li>
-            <br>
+            <li class="cmd" id="sec10">
+                <h3>git branch</h3>
+                <p class="sections_p">
+                    A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch
+                    name in Git is master . As you start making commits, you're given a master branch that points to the
+                    last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+
+                </p>
+
+                <img src="/Images/git-branches-merge.png" style="display:flex; height:15rem; width:50rem">
+                <p class="sections_p">
+                    You can use the git branch command to create, list, rename, and delete branches. 
+                    It does not allow you to switch between branches or reconstruct a forked history.
+                     As a result, git branch is tightly integrated with the git checkout and git merge commands.
+                    <br>
+                    <ul style="list-style-type:disc;">
+                        <li><b>git branch (branchName)</b></li>
+                    </ul>
+                    Here <span style="color: rgb(35, 126, 245);"> sub-branch </span>is the name of the branch we have created:
+                </p>
+                <img src="/images/git_branch.PNG" style="display:flex; height:15rem; width:40rem">
+            
+                <br>
+                <p class="sections_p">
+                    <ul style="list-style-type:disc;">
+                        <li><b>git branch</b></li>
+                    </ul>
+                    Executing git branch gives you the way to know where the HEAD is pointing to. * shows the current branch.
+                    <br>
+                    <img src="/Images/git_branch.PNG" style="display:flex; height:15rem; width:40rem">
+                </p>
+                <p class="sections_p">
+                    <ul style="list-style-type:disc;">
+                        <li><b>git checkout (branchName)</b></li>
+                    </ul>
+                   To switch between branches you can use git checkout command.
+                    Here now HEAD points to sub-branch
+                    <br>
+                    <img src="/images/switching.PNG" style="display:flex; height:15rem; width:40rem">
+                </p>
+                <p class="sections_p">
+                    <ul style="list-style-type:disc;">
+                        <li><b>git merge</b></li>
+                    </ul>
+                    The git merge command combines the independent lines of development created by git branch into a single branch.
+                    A git merge operation is performed by running the command “git merge (name of branch to e merges)
+                    When we perform merging, git always merges with the current branch from where we are performing the operation.
+                    <br>
+                    <img src="/images/merge.png" style="display:flex; height:10rem; width:45rem">
+                </p>
+            </li>
         </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
